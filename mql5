@@ -1,0 +1,72 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                              One Minute CHF Scalper |
+//|                                               forexroboteasy.com |
+//|                                       Developed by Forex Robot Easy Team |
+//+------------------------------------------------------------------+
+#property copyright 'forexroboteasy.com'
+#property link      'forexroboteasy.com'
+#property version   '1.00'
+#property strict
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Initialize necessary variables and indicators here
+
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Perform any necessary cleanup operations here
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                            |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Execute trading logic for the specified currency pairs here
+
+    // Place trades based on the scalping strategy
+
+    // Close trades based on predefined conditions
+
+    // Monitor and manage open trades
+}
+
+//+------------------------------------------------------------------+
+//| Custom function for placing trades                               |
+//+------------------------------------------------------------------+
+void PlaceTrade(const string symbol, const double lotSize, const int slippage)
+{
+    // Place a trade on the specified symbol with the given lot size and slippage
+    
+    // Add necessary code to place the trade here
+}
+
+//+------------------------------------------------------------------+
+//| Custom function for closing trades                               |
+//+------------------------------------------------------------------+
+void CloseTrade(const int ticket, const int slippage)
+{
+    // Close the trade with the specified ticket number and slippage
+    
+    // Add necessary code to close the trade here
+}
+
+//+------------------------------------------------------------------+
+//| Custom function for managing trades                              |
+//+------------------------------------------------------------------+
+void ManageTrades()
+{
+    // Monitor and manage open trades
+    
+    // Add necessary code for trade management here
+}
